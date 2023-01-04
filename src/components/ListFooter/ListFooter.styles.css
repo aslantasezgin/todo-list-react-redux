@@ -1,0 +1,21 @@
+.content-footer{
+    @apply w-full flex items-center justify-between px-4;
+}
+
+.left-item{
+    @apply text-green-600 font-bold text-sm;
+    cursor: pointer;
+}
+
+.menu-item{
+    @apply text-gray-600 text-sm;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    @apply text-blue-600;
+}
+
+.active{
+    @apply text-blue-600 font-bold text-xl;
+}
